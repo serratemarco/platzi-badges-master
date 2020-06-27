@@ -1,3 +1,81 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+
+//Con Jsx contenedores
+// const jsx = (
+//      <div>
+//         <h1>Hola esto es un Titulo H1 con jsx</h1>
+//         <p>Esto es un parrafo en jsx</p>
+//     </div>
+//    ); 
+// const container= document.getElementById('app');
+// ReactDOM.render(jsx, container);
+
+
+//Con React 
+const element = React.createElement(
+    'div',
+    {},
+    React.createElement('h1', {}, 'Hola soy, esto es con React'),
+    React.createElement('p', {}, 'Esto es un parrafo  con react')
+)
+
+const container = document.getElementById('app');
+ReactDOM.render(element, container);
+
+
+
+
+
+
+
+
+
+
+
+// const name = 'Marco Serrate';
+// //voy a crear un elemento que tenga una funcion sumar 
+// const sum=()=> 3+ 3;
+// //En jsx si vamos a escribir expresiones, entonces abrimos las {}
+// const jsx = <h1>Hola esto es una funcion {sum()}, realizado por {name}</h1>;
+// //donde mostramos el docuemnto
+// const conteiner = document.getElementById('app');
+// //Impresion
+// ReactDOM.render(jsx, conteiner);
+
+
+
+
+//Con React
+// const name = 'Marco';
+// const element =  React.createElement('h1', {}, `Hello ${name}`);
+// const container = document.getElementById('app');
+// ReactDOM.render(element, container);
+
+
+
+
+
+
+
+
+
+
+
+
+// const jsx = <h1>Hello React Jsx</h1>; 
+
+// const element = React.createElement(
+//      'a',
+//      {href: 'https://platzi.com'},
+//      'Haz clic en el link de jsx TB');
+
+
+
+
+
+
 // //sin react
 // //Creo un elemento
 // const element = document.createElement('h1');
@@ -13,22 +91,27 @@
 
 //Utilizando react
 
-import React from 'react';
-import ReactDOM from 'react-dom';
 
 
-//Con creacteElement
-const name = 'Marco';
 
-const element = React.createElement(
-    'div',
-    {name},
-    React.createElement('h1', {}, 'Hola soy, esto es con React'),
-    React.createElement('p', {}, 'Esto es un parraofn con react')
-)
 
-const container = document.getElementById('app');
-ReactDOM.render(element, container);
+
+
+
+
+
+// //Con creacteElement
+// const name = 'Marco';
+
+// const element = React.createElement(
+//     'div',
+//     {name},
+//     React.createElement('h1', {}, 'Hola soy, esto es con React'),
+//     React.createElement('p', {}, 'Esto es un parraofn con react')
+// )
+
+// const container = document.getElementById('app');
+// ReactDOM.render(element, container);
 
 
 
