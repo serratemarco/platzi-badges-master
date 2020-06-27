@@ -17,7 +17,7 @@ import ReactDOM from 'react-dom';
 const element = React.createElement(
     'div',
     {},
-    React.createElement('h1', {}, 'Hola soy, esto es con React'),
+    React.createElement('h1', {}, 'Hola soy, esto es con React y estoy trabajando con git'),
     React.createElement('p', {}, 'Esto es un parrafo  con react')
 )
 
