@@ -1,5 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Badge from './components/Badge'
+import 'bootstrap/dist/css/bootstrap.css';
+import './global.css';
+const container = document.getElementById('app');
+ReactDOM.render(<Badge/>, container);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Con Jsx contenedores
@@ -13,16 +33,16 @@ import ReactDOM from 'react-dom';
 // ReactDOM.render(jsx, container);
 
 
-//Con React 
-const element = React.createElement(
-    'div',
-    {},
-    React.createElement('h1', {}, 'Hola soy, esto es con React y estoy trabajando con git'),
-    React.createElement('p', {}, 'Esto es un parrafo  con react')
-)
+// //Con React 
+// const element = React.createElement(
+//     'div',
+//     {},
+//     React.createElement('h1', {}, 'Hola soy, esto es con React y estoy trabajando con git'),
+//     React.createElement('p', {}, 'Esto es un parrafo  con react')
+// )
 
-const container = document.getElementById('app');
-ReactDOM.render(element, container);
+// const container = document.getElementById('app');
+// ReactDOM.render(element, container);
 
 
 
